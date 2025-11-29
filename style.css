@@ -915,7 +915,7 @@ p {
 
   img {
     width: 100%;
-    height: 450px;
+    height: 100%;
   }
 }
 
@@ -926,9 +926,6 @@ p {
     hero-bg {
       height: 250px;
 
-      img {
-        height: 250px;
-      }
     }
   }
 }
