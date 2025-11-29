@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gewerbekunden – ABITHERM GmbH</title>
+  <meta name="description" content="Großanlagen für Heizung, Lüftung und Klimatisierung für Gewerbe & Industrie in Balingen, Rottweil, Hechingen und Umgebung.">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="assets/img/logo.png">
+</head>
+<body>
+
+<!-- ====== COMMON HEADER (замените ваш текущий topbar + header на этот блок) ====== -->
+<div class="topbar">
+  <div class="container">
+    <a href="https://maps.google.com/?q=Rossbergstraße%2040%2C%2072336%20Balingen" target="_blank" rel="noopener">
+      <!-- <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.14 2 5 5.14 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.86-3.14-7-7-7zm0 9.5A2.5 2.5 0 1 1 12 6a2.5 2.5 0 0 1 0 5.5z"/></svg> -->
+      Rossbergstraße 40 · 72336 Balingen
+    </a>
+    <span class="sp"></span>
+    <a href="mailto:info@abitherm.de">
+      <!-- <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4a2 2 0 0 0-2 2v1.2l10 5.8 10-5.8V6a2 2 0 0 0-2-2zm0 6.4-8 4.6-8-4.6V18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V10.4z"/></svg> -->
+      info@abitherm.de
+    </a>
+    <span> | </span>
+    <a href="tel:+497433123456">
+      <!-- <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.01-.24c1.12.37 2.33.57 3.58.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1C10.4 21 3 13.6 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.46.57 3.58a1 1 0 0 1-.25 1.01l-2.2 2.2z"/></svg> -->
+      07433 / 123456
+    </a>
+  </div>
+</div>
+
+<header>
+  <div class="container header-inner">
+    <a class="brand" href="index.html"><img src="assets/img/logo.png" alt="ABITHERM GmbH"></a>
+
+    <nav class="nav" aria-label="Hauptnavigation">
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Menü">&#9776;</button>
+
+      <ul id="nav-menu" class="nav-list">
+        <!-- Heizungsbau (как было) -->
+        <li class="has-sub">
+          <a href="heizungsbau.html">Heizungsbau</a>
+          <ul class="sub">
+            <li><a href="heizungsbau.html#wm">Wärmepumpe</a></li>
+            <li><a href="heizungsbau.html#hybrid">Hybridheizung</a></li>
+            <li><a href="heizungsbau.html#gas">Gasheizung</a></li>
+            <li><a href="heizungsbau.html#pellet">Pelletheizung</a></li>
+            <li><a href="heizungsbau.html#floor">Fußbodenheizung</a></li>
+            <li><a href="heizungsbau.html#service">Heizungswartung &amp; Kundendienst</a></li>
+          </ul>
+        </li>
+
+        <!-- ===== Sanitäranlagen с подменю (добавлено) ===== -->
+        <li class="has-sub">
+          <!-- fallback-ссылка на страницу; видим стрелку для UX -->
+          <a href="sanitaeranlagen.html" aria-haspopup="true" aria-expanded="false">Sanitäranlagen</a>
+
+          <!-- подменю: якорные ссылки на блоки страницы -->
+          <ul class="sub">
+            <li><a href="sanitaeranlagen.html#wasseraufbereitung">Wasseraufbereitung</a></li>
+            <li><a href="sanitaeranlagen.html#sanita-gewerbe">Gewerbe &amp; Großkunden</a></li>
+            <li><a href="sanitaeranlagen.html#sanita-wohnungen">Wohnungen &amp; Häuser</a></li>
+            <li><a href="sanitaeranlagen.html#verlegung-rohrleitungen">Verlegung von Rohrleitungen</a></li>
+            <li><a href="sanitaeranlagen.html#sanierung-rohrleitungen">Sanierung von Rohrleitungen</a></li>
+          </ul>
+        </li>
+
+        <!-- Оставшиеся пункты -->
+        <li><a href="gewerbekunden.html">Gewerbekunden</a></li>
+        <li><a href="klima-lueftung.html">Klima &amp; Lüftung</a></li>
+        <li><a href="referenzen.html">Referenzen</a></li>
+        <li><a href="ueber-uns.html">Über uns</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<!-- ====== /COMMON HEADER ====== -->
+
+
+<main>
+
+  <!-- HERO: универсальный блок -->
+  <section class="hero hero-cover hero-red hero-page" data-bg="assets/img/hero-placeholder.jpg" aria-labelledby="page-title">
+    <div class="hero-bg ph-img" role="img" aria-hidden="true"><img src="./assets/img/bussinesClients.jpg" alt=""></div>
+
+    <div class="container hero-inner">
+      <div class="hero-content">
+        <h1 id="page-title" class="hero-title"><center>GEWERBEKUNDEN</center></h1>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- 1. Optimales Raumklima ... -->
+  <section class="section reveal alt">
+    <div class="container grid-2">
+      <div class="media">
+        <div style="height:420px;background:#fafafa;border:2px dashed var(--border)"><img src="./assets/img/climatControl.jpg" alt=""></div>
+      </div>
+      <div>
+        <h2>Optimales Raumklima für Ihr Unternehmen in Balingen, Rottweil & Hechingen</h2>
+        <h3 class="subttl">Perfekte Umgebung für beste Arbeitsleistung</h3>
+        <p>Mit groß dimensionierten Anlagen für Lüftung und Klimatisierung schaffen wir ein Umfeld, das die Leistungsfähigkeit und das Wohlbefinden Ihrer Mitarbeitenden unterstützt. Ob Büro, Produktion oder Lager – wir planen passgenaue Lösungen, die Effizienz, Zuverlässigkeit und Komfort vereinen.</p>
+        <p>Kontaktieren Sie uns für ein unverbindliches Beratungsgespräch und ein Angebot, das exakt zu Ihren betrieblichen Anforderungen passt.</p>
+        <a class="btn btn-primary" href="kontakt.html">Jetzt beraten lassen!</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. Nachhaltig Heizen mit Großwärmepumpen -->
+  <section class="section reveal">
+    <div class="container grid-2">
+      <div>
+        <h2>Nachhaltig heizen mit Großwärmepumpen</h2>
+        <h3 class="subttl">Effiziente Lösungen für große Anforderungen</h3>
+        <p>Unsere Luft-Wärmepumpensysteme bis 200&nbsp;kW und im Kaskadenbetrieb bieten eine zukunftsorientierte, umweltfreundliche Wärmeversorgung für Gewerbegebäude. So senken Sie spürbar Energiekosten und CO₂-Emissionen – besonders geeignet für große Hallen und Industriebauten in der Region.</p>
+        <p>Die Systeme arbeiten effizient, flexibel und zuverlässig. Mit moderner Regelungstechnik gewährleisten wir eine gleichmäßige, bedarfsgerechte Wärme bereitstellung – exakt abgestimmt auf Ihre Prozesse.</p>
+        <a class="btn" href="kontakt.html">Jetzt Beratung anfordern!</a>
+      </div>
+      <div class="media">
+        <div style="height:420px;background:#fafafa;border:2px dashed var(--border)"><img src="./assets/img/largePumps.jpg" alt=""></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. Frischluft / Großanlagen zur Raumlüftung -->
+  <section class="section reveal alt">
+    <div class="container grid-2">
+      <div class="media">
+        <div style="height:420px;background:#fafafa;border:2px dashed var(--border)"><img src="./assets/img/ventilators.jpg" alt=""></div>
+      </div>
+      <div>
+        <h2>Frischluft für Ihr Arbeitsumfeld mit effektiven Großanlagen zur Raumlüftung</h2>
+        <h3 class="subttl">Individuelle Anpassungen für Ihren Bedarf</h3>
+        <p>Wir sorgen mit maßgeschneiderten Lüftungssystemen für gesunde Luftqualität in Ihren Betriebsräumen. Ob Absaugung, geregelte Be- und Entlüftung oder Wärmerückgewinnung – unsere Anlagen sind vielseitig und leistungsstark und erfüllen die höchsten Standards.</p>
+        <p>Nach einer Analyse Ihrer Anforderungen entwickeln wir eine Lösung, die genau zu Ihrer Fläche passt und zusätzlich Energie spart, etwa durch Rückgewinnung vorhandener Wärme.</p>
+        <a class="btn btn-primary" href="kontakt.html">Zum Kontaktformular!</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. Moderne Gebläsekonvektoren (Decke/Wand) -->
+  <section class="section reveal">
+    <div class="container grid-2">
+      <div>
+        <h2>Moderne Gebläsekonvektoren für Decke und Wand</h2>
+        <h3 class="subttl">Präzise Klimatisierung auf kleinstem Raum</h3>
+        <p>Kompakte Gebläsekonvektoren ermöglichen eine effiziente, flexible Temperaturregelung in Büros, Besprechungsräumen und weiteren Arbeitsbereichen. Sie eignen sich für Einzelraumlösungen ebenso wie für zentrale Steuerungskonzepte.</p>
+        <p>Die Geräte lassen sich bedarfsgerecht installieren und schaffen ein angenehmes Raumklima – leise, zuverlässig und energieeffizient.</p>
+        <a class="btn" href="kontakt.html">Zur Kontaktseite!</a>
+      </div>
+      <div class="media">
+        <div style="height:420px;background:#fafafa;border:2px dashed var(--border)"><img src="./assets/img/finecoils.jpg" alt=""></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. Maßgeschneiderte Klimatisierungslösungen -->
+  <section class="section reveal alt">
+    <div class="container grid-2">
+      <div class="media">
+        <div style="height:420px;background:#fafafa;border:2px dashed var(--border)"><img src="./assets/img/conditionAir.jpg" alt=""></div>
+      </div>
+      <div>
+        <h2>Maßgeschneiderte Klimatisierungslösungen</h2>
+        <h3 class="subttl">Wohlfühlklima im Büro</h3>
+        <p>Unsere Klimasysteme sorgen für produktive Arbeitsbedingungen und zufriedene Mitarbeitende. Von Einzelbüros über Open-Spaces bis zu Konferenzräumen – wir realisieren Lösungen, die zu jeder Nutzung passen.</p>
+        <p>Die Anlagen arbeiten effizient und unauffällig, sodass der Betriebsablauf nicht gestört wird. So bleiben Ihre Arbeitsplätze dauerhaft optimal klimatisiert.</p>
+        <a class="btn btn-primary" href="kontakt.html">Schreiben Sie uns jetzt!</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. Flexible Raumklimatisierung mit Fancoils -->
+  <section class="section reveal">
+    <div class="container grid-2">
+      <div>
+        <h2>Flexible Raumklimatisierung mit Fancoils</h2>
+        <h3 class="subttl">Individuelle Temperierung für jeden Raum</h3>
+        <p>Fancoils ermöglichen eine präzise Einzelraum-Temperierung bei höchster Effizienz. Ideal für Neubau und Renovierung – die Systeme lassen sich exakt auf die Anforderungen Ihres Unternehmens anpassen.</p>
+        <p>Ob Büro, Konferenz oder Produktionsbereich: Mit Fancoils schaffen Sie exakt das Klima, das gebraucht wird – komfortabel, energieeffizient und schnell installiert.</p>
+        <a class="btn btn-primary" href="kontakt.html">Haben Sie Fragen?</a>
+      </div>
+      <div class="media">
+        <div style="height:420px;background:#fafafa;border:2px dashed var(--border)"><img src="./assets/img/finecoil2.jpg" alt=""></div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+
+<footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <h4>ABITHERM GmbH</h4>
+          <p>Heizung · Klima · Sanitär</p>
+          <p>Rossbergstraße 40, 72336 Balingen</p>
+          <p
+            ><strong>Telefon:</strong> 0179 / 9140436<br /><strong
+              >E-Mail:</strong
+            >
+            info@abitherm.de</p
+          >
+        </div>
+        <div>
+          <h4>Links</h4>
+          <ul class="linklist">
+            <li><a href="impressum.html">Impressum</a></li>
+            <li
+              ><a href="datenschutzerklaerung.html">Datenschutzerklärung</a></li
+            >
+            <li><a href="cookie-richtlinie.html">Cookie-Richtlinie (EU)</a></li>
+          </ul>
+        </div>
+        <div class="map map-def">
+          <iframe
+            title="Karte"
+            src="https://maps.google.com/maps?q=Rossbergstraße%2040%2C%2072336%20Balingen&t=&z=12&ie=UTF8&iwloc=&output=embed"
+            loading="lazy"
+          ></iframe>
+        </div>
+      </div>
+
+      <div class="map-adaptive-wrapper">
+        <div class="map map-adaptive">
+          <iframe
+            title="Karte"
+            src="https://maps.google.com/maps?q=Rossbergstraße%2040%2C%2072336%20Balingen&t=&z=12&ie=UTF8&iwloc=&output=embed"
+            loading="lazy"
+            height="200"
+          ></iframe>
+        </div>
+      </div>
+
+      <div class="container footer-bottom">
+        <small
+          >© <span id="year"></span> ABITHERM GmbH – Alle Rechte
+          vorbehalten.</small
+        >
+      </div>
+    </footer>
+
+<script src="script.js"></script>
+</body>
+</html>

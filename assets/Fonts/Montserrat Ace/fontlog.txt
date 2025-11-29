@@ -1,0 +1,5 @@
+This is a Modified Version of Montserrat. Some characters (A,W,l,w,y) have been swapped with their alternate versions, most glyphs have been scaled down to 92%, and the amount of space after the letter 'a' has been reduced.
+
+Version: 1.0
+
+Changes made by Terry at Ace Week, 2019

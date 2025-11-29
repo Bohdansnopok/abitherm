@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Heizungsbau – ABITHERM GmbH</title>
+  <meta name="description" content="Heizungsbau in Balingen: Wärmepumpe, Hybrid, Gas, Pellets, Fußbodenheizung, Wartung & Kundendienst.">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="assets/img/logo.png">
+</head>
+<body>
+
+<!-- ====== COMMON HEADER (замените ваш текущий topbar + header на этот блок) ====== -->
+<div class="topbar">
+  <div class="container">
+    <a href="https://maps.google.com/?q=Rossbergstraße%2040%2C%2072336%20Balingen" target="_blank" rel="noopener">
+      <!-- <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.14 2 5 5.14 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.86-3.14-7-7-7zm0 9.5A2.5 2.5 0 1 1 12 6a2.5 2.5 0 0 1 0 5.5z"/></svg> -->
+      Rossbergstraße 40 · 72336 Balingen
+    </a>
+    <span class="sp"></span>
+    <a href="mailto:info@abitherm.de">
+      <!-- <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4a2 2 0 0 0-2 2v1.2l10 5.8 10-5.8V6a2 2 0 0 0-2-2zm0 6.4-8 4.6-8-4.6V18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V10.4z"/></svg> -->
+      info@abitherm.de
+    </a>
+    <span> | </span>
+    <a href="tel:+497433123456">
+      <!-- <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.01-.24c1.12.37 2.33.57 3.58.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1C10.4 21 3 13.6 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.46.57 3.58a1 1 0 0 1-.25 1.01l-2.2 2.2z"/></svg> -->
+      07433 / 123456
+    </a>
+  </div>
+</div>
+
+<header>
+  <div class="container header-inner">
+    <a class="brand" href="index.html"><img src="assets/img/logo.png" alt="ABITHERM GmbH"></a>
+
+    <nav class="nav" aria-label="Hauptnavigation">
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Menü">&#9776;</button>
+
+      <ul id="nav-menu" class="nav-list">
+        <!-- Heizungsbau (как было) -->
+        <li class="has-sub">
+          <a href="heizungsbau.html">Heizungsbau</a>
+          <ul class="sub">
+            <li><a href="heizungsbau.html#wm">Wärmepumpe</a></li>
+            <li><a href="heizungsbau.html#hybrid">Hybridheizung</a></li>
+            <li><a href="heizungsbau.html#gas">Gasheizung</a></li>
+            <li><a href="heizungsbau.html#pellet">Pelletheizung</a></li>
+            <li><a href="heizungsbau.html#floor">Fußbodenheizung</a></li>
+            <li><a href="heizungsbau.html#service">Heizungswartung &amp; Kundendienst</a></li>
+          </ul>
+        </li>
+
+        <!-- ===== Sanitäranlagen с подменю (добавлено) ===== -->
+        <li class="has-sub">
+          <!-- fallback-ссылка на страницу; видим стрелку для UX -->
+          <a href="sanitaeranlagen.html" aria-haspopup="true" aria-expanded="false">Sanitäranlagen</a>
+
+          <!-- подменю: якорные ссылки на блоки страницы -->
+          <ul class="sub">
+            <li><a href="sanitaeranlagen.html#wasseraufbereitung">Wasseraufbereitung</a></li>
+            <li><a href="sanitaeranlagen.html#sanita-gewerbe">Gewerbe &amp; Großkunden</a></li>
+            <li><a href="sanitaeranlagen.html#sanita-wohnungen">Wohnungen &amp; Häuser</a></li>
+            <li><a href="sanitaeranlagen.html#verlegung-rohrleitungen">Verlegung von Rohrleitungen</a></li>
+            <li><a href="sanitaeranlagen.html#sanierung-rohrleitungen">Sanierung von Rohrleitungen</a></li>
+          </ul>
+        </li>
+
+        <!-- Оставшиеся пункты -->
+        <li><a href="gewerbekunden.html">Gewerbekunden</a></li>
+        <li><a href="klima-lueftung.html">Klima &amp; Lüftung</a></li>
+        <li><a href="referenzen.html">Referenzen</a></li>
+        <li><a href="ueber-uns.html">Über uns</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<!-- ====== /COMMON HEADER ====== -->
+
+
+<main>
+
+  <!-- Блок 1: Hero с красным мягким затемнением, текст "Heizungsbau" -->
+    <section class="hero hero-cover hero-red hero-page" data-bg="assets/img/hero-placeholder.jpg" aria-labelledby="page-title">
+    <div class="hero-bg ph-img" role="img" aria-hidden="true"><img src="./assets/img/gasBuild.png" alt=""></div>
+
+    <div class="container hero-inner">
+      <div class="hero-content">
+        <h1 id="page-title" class="hero-title"><center>HEIZUNGSBAU</center></h1>
+      </div>
+    </div>
+  </section>
+
+  <!-- Блок 2: слева изображение, справа контент -->
+  <section id="wm" class="section reveal alt">
+    <div class="container grid-2">
+      <div class="media"><div style="height:360px;background:#fafafa;border:2px dashed var(--border)"><img src="./assets/img/abitermBringer.jpg" alt=""></div></div>
+      <div>
+        <h2>Wärmepumpen: klimafreundlich heizen</h2>
+        <h3 class="subttl">Umweltenergie effizient nutzen</h3>
+        <p>Wärmepumpen gewinnen kostenlose Energie aus Luft, Erdreich oder Grundwasser und bringen sie effizient ins Haus. Richtig ausgelegt senken sie den CO₂-Fußabdruck deutlich und sorgen zugleich für niedrige Betriebskosten.</p>
+        <p>Ob Luft/Wasser oder Sole/Wasser – wir prüfen die Rahmenbedingungen, dimensionieren sauber und binden die Anlage optimal in Ihr System ein.</p>
+        <a class="btn btn-primary" href="kontakt.html">Jetzt beraten lassen!</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Блок 3: справа изображение -->
+  <section id="hybrid" class="section reveal">
+    <div class="container grid-2">
+      <div>
+        <h2>Hybridheizungen: Gas &amp; Wärmepumpe kombiniert</h2>
+        <h3 class="subttl">Flexibel & sicher im Betrieb</h3>
+        <p>Hybridheizungen verbinden die Effizienz der Wärmepumpe mit der Versorgungssicherheit einer Gasheizung. Die Regelung wählt je nach Situation die beste Betriebsart – effizient und wirtschaftlich.</p>
+        <p>Ideal für Sanierungen und Mehrfamilienhäuser: variabel einsetzbar und anpassbar an Ihr Budget.</p>
+        <a class="btn" href="kontakt.html">Zum Kontaktformular</a>
+      </div>
+      <div class="media"><div style="height:360px;background:#fafafa;border:2px dashed var(--border)"><img src="./assets/img/gas.JPG" alt=""></div></div>
+    </div>
+  </section>
+
+  <!-- Блок 4: слева изображение -->
+  <section id="gas" class="section reveal alt">
+    <div class="container grid-2">
+      <div class="media"><div style="height:360px;background:#fafafa;border:2px dashed var(--border)"><img src="./assets/img/systems.jpg" alt=""></div></div>
+      <div>
+        <h2>Gasheizungen: moderne Brennwerttechnik</h2>
+        <h3 class="subttl">Bewährte Lösung mit hohem Wirkungsgrad</h3>
+        <p>Aktuelle Brennwertgeräte arbeiten effizient und zuverlässig. In Kombination mit Solarthermie oder Wärmepumpe bleibt das System zukunftsfähig und wirtschaftlich.</p>
+        <p>Wir modernisieren bestehende Anlagen und optimieren Hydraulik, Regelung und Sicherheit.</p>
+        <a class="btn btn-primary" href="kontakt.html">Schreiben Sie uns jetzt!</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Блок 5: справа изображение -->
+  <section id="pellet" class="section reveal">
+    <div class="container grid-2">
+      <div>
+        <h2>Pelletheizung: gemütliche Wärme mit Holzpellets</h2>
+        <h3 class="subttl">Nachhaltig & kosteneffizient</h3>
+        <p>Pelletanlagen sind die erneuerbare Alternative zu fossilen Brennstoffen. Sie liefern komfortable Wärme und überzeugen durch kalkulierbare Betriebskosten.</p>
+        <p>Wir planen Lager, Fördersystem und Brandschutz – durchdacht und normgerecht.</p>
+        <a class="btn" href="kontakt.html">Zur Kontaktseite!</a>
+      </div>
+      <div class="media"><div style="height:360px;background:#fafafa;border:2px dashed var(--border)"><img src="./assets/img/pallete-gas.jpg" alt=""></div></div>
+    </div>
+  </section>
+
+  <!-- Блок 6: слева изображение -->
+  <section id="floor" class="section reveal alt">
+    <div class="container grid-2">
+      <div class="media"><div style="height:360px;background:#fafafa;border:2px dashed var(--border)"><img src="./assets/img/floorHeating.jpg" alt=""></div></div>
+      <div>
+        <h2>Fußbodenheizung: Komfort & Effizienz</h2>
+        <h3 class="subttl">Behagliche Wärme im ganzen Raum</h3>
+        <p>Flächenheizungen verteilen die Wärme gleichmäßig und arbeiten mit niedrigen Vorlauftemperaturen besonders effizient. Wir übernehmen Planung, Verlegung und hydraulischen Abgleich – Raum für Raum.</p>
+        <a class="btn btn-primary" href="kontakt.html">Haben Sie Fragen?</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Блок 7: справа изображение -->
+  <section id="service" class="section reveal">
+    <div class="container grid-2">
+      <div>
+        <h2>Heizungswartung & Kundendienst</h2>
+        <h3 class="subttl">Sichere Funktion und niedriger Verbrauch</h3>
+        <p>Regelmäßige Wartung hält Ihre Anlage effizient und reduziert Ausfälle. Mit Wartungsvertrag bleiben Intervalle klar planbar; Dokumentation ist selbstverständlich.</p>
+        <a class="btn btn-primary" href="kontakt.html">Jetzt Beratung anfordern!</a>
+      </div>
+      <div class="media"><div style="height:360px;background:#fafafa;border:2px dashed var(--border)"><img src="./assets/img/maintenance.jpg" alt=""></div></div>
+    </div>
+  </section>
+
+</main>
+
+
+<footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <h4>ABITHERM GmbH</h4>
+          <p>Heizung · Klima · Sanitär</p>
+          <p>Rossbergstraße 40, 72336 Balingen</p>
+          <p
+            ><strong>Telefon:</strong> 0179 / 9140436<br /><strong
+              >E-Mail:</strong
+            >
+            info@abitherm.de</p
+          >
+        </div>
+        <div>
+          <h4>Links</h4>
+          <ul class="linklist">
+            <li><a href="impressum.html">Impressum</a></li>
+            <li
+              ><a href="datenschutzerklaerung.html">Datenschutzerklärung</a></li
+            >
+            <li><a href="cookie-richtlinie.html">Cookie-Richtlinie (EU)</a></li>
+          </ul>
+        </div>
+        <div class="map map-def">
+          <iframe
+            title="Karte"
+            src="https://maps.google.com/maps?q=Rossbergstraße%2040%2C%2072336%20Balingen&t=&z=12&ie=UTF8&iwloc=&output=embed"
+            loading="lazy"
+          ></iframe>
+        </div>
+      </div>
+
+      <div class="map-adaptive-wrapper">
+        <div class="map map-adaptive">
+          <iframe
+            title="Karte"
+            src="https://maps.google.com/maps?q=Rossbergstraße%2040%2C%2072336%20Balingen&t=&z=12&ie=UTF8&iwloc=&output=embed"
+            loading="lazy"
+            height="200"
+          ></iframe>
+        </div>
+      </div>
+
+      <div class="container footer-bottom">
+        <small
+          >© <span id="year"></span> ABITHERM GmbH – Alle Rechte
+          vorbehalten.</small
+        >
+      </div>
+    </footer>
+
+<script src="script.js"></script>
+</body>
+</html>

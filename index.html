@@ -1,0 +1,360 @@
+<!doctype html>
+<html lang="de">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ABITHERM GmbH – Heizung · Klima · Sanitär</title>
+  <meta name="description"
+    content="ABITHERM GmbH in Balingen – Heizung, Klima & Sanitär. Planung, Installation, Wartung." />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="assets/img/logo.png" />
+</head>
+
+<body>
+  <!-- ====== COMMON HEADER (замените ваш текущий topbar + header на этот блок) ====== -->
+  <div class="topbar">
+    <div class="container">
+      <a href="https://maps.google.com/?q=Rossbergstraße%2040%2C%2072336%20Balingen" target="_blank" rel="noopener">
+        <!-- <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.14 2 5 5.14 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.86-3.14-7-7-7zm0 9.5A2.5 2.5 0 1 1 12 6a2.5 2.5 0 0 1 0 5.5z"/></svg> -->
+        Rossbergstraße 40 · 72336 Balingen
+      </a>
+      <span class="sp"></span>
+      <a href="mailto:info@abitherm.de">
+        <!-- <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4a2 2 0 0 0-2 2v1.2l10 5.8 10-5.8V6a2 2 0 0 0-2-2zm0 6.4-8 4.6-8-4.6V18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V10.4z"/></svg> -->
+        info@abitherm.de
+      </a>
+      <span> | </span>
+      <a href="tel:+497433123456">
+        <!-- <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.01-.24c1.12.37 2.33.57 3.58.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1C10.4 21 3 13.6 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.46.57 3.58a1 1 0 0 1-.25 1.01l-2.2 2.2z"/></svg> -->
+        07433 / 123456
+      </a>
+    </div>
+  </div>
+
+  <header>
+    <div class="container header-inner">
+      <a class="brand" href="index.html"><img src="assets/img/logo.png" alt="ABITHERM GmbH" /></a>
+
+      <nav class="nav" aria-label="Hauptnavigation">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Menü">&#9776;</button>
+
+        <ul id="nav-menu" class="nav-list">
+          <!-- Heizungsbau (как было) -->
+          <li class="has-sub">
+            <a href="heizungsbau.html">Heizungsbau</a>
+            <ul class="sub">
+              <li><a href="heizungsbau.html#wm">Wärmepumpe</a></li>
+              <li><a href="heizungsbau.html#hybrid">Hybridheizung</a></li>
+              <li><a href="heizungsbau.html#gas">Gasheizung</a></li>
+              <li><a href="heizungsbau.html#pellet">Pelletheizung</a></li>
+              <li><a href="heizungsbau.html#floor">Fußbodenheizung</a></li>
+              <li><a href="heizungsbau.html#service">Heizungswartung &amp; Kundendienst</a></li>
+            </ul>
+          </li>
+
+          <!-- ===== Sanitäranlagen с подменю (добавлено) ===== -->
+          <li class="has-sub">
+            <!-- fallback-ссылка на страницу; видим стрелку для UX -->
+            <a href="sanitaeranlagen.html" aria-haspopup="true" aria-expanded="false">Sanitäranlagen</a>
+
+            <!-- подменю: якорные ссылки на блоки страницы -->
+            <ul class="sub">
+              <li><a href="sanitaeranlagen.html#wasseraufbereitung">Wasseraufbereitung</a></li>
+              <li><a href="sanitaeranlagen.html#sanita-gewerbe">Gewerbe &amp; Großkunden</a></li>
+              <li><a href="sanitaeranlagen.html#sanita-wohnungen">Wohnungen &amp; Häuser</a></li>
+              <li><a href="sanitaeranlagen.html#verlegung-rohrleitungen">Verlegung von Rohrleitungen</a></li>
+              <li><a href="sanitaeranlagen.html#sanierung-rohrleitungen">Sanierung von Rohrleitungen</a></li>
+            </ul>
+          </li>
+
+          <!-- Оставшиеся пункты -->
+          <li><a href="gewerbekunden.html">Gewerbekunden</a></li>
+          <li><a href="klima-lueftung.html">Klima &amp; Lüftung</a></li>
+          <li><a href="referenzen.html">Referenzen</a></li>
+          <li><a href="ueber-uns.html">Über uns</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!-- ====== /COMMON HEADER ====== -->
+
+  <main>
+    <!-- Блок 1: Слайдер + текст -->
+    <section class="hero-slider">
+      <div class="slider">
+        <div class="slide active"><img src="./assets/img/abitermStore.jpg" alt="" /></div>
+        <div class="slide"><img src="./assets/img/abitermZoom.JPG" alt="" /></div>
+        <div class="slide"><img src="./assets/img/bathroom.jpg" alt="" /></div>
+
+        <div class="hero-box">
+          <span class="badge">Seit 2003</span>
+          <h1>ABITHERM GmbH</h1>
+          <p>Ihr Fachbetrieb aus Balingen – zuverlässig, effizient und sauber
+            ausgeführt.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="kontakt.html">Haben Sie Fragen?</a>
+            <a class="btn" href="ueber-uns.html">Über uns</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Блок 2: слева текст, справа рамка -->
+    <section class="section reveal">
+      <div class="container grid-2">
+        <div>
+          <h2>ABITHERM – Ihre Spezialisten für Heizung, Klima &amp; Sanitär</h2>
+          <p>Zuverlässigkeit, Termintreue und Sorgfalt – darauf können Sie
+            sich bei ABITHERM verlassen. Seit vielen Jahren betreuen wir
+            Kunden in Balingen, Rottweil, Tübingen, Reutlingen und
+            Umgebung.</p>
+          <p>Unser Team wird regelmäßig geschult und arbeitet sauber sowie
+            transparent – mit Ergebnissen, die lange überzeugen.</p>
+        </div>
+        <div class="media img-reveal" aria-label="Bildplatzhalter">
+          <img src="./assets/img/abitermCompressor.jpg" alt="">
+        </div>
+      </div>
+    </section>
+
+    <!-- Блок 3: Unsere Leistungen (ровно 6 карточек) -->
+    <section class="section reveal">
+      <div class="container">
+        <h2 style="text-align: center; margin-bottom: 12px">Unsere Leistungen</h2>
+        <div class="cards" style="margin-top: 12px">
+          <a class="card" href="heizungsbau.html">
+            <div class="fill"></div><img src="./assets/img/gasSystem.jpg" alt="" class="imgph" />
+            <div class="card-inner">
+              <h3>Heizungsbau</h3>
+              <p>Effiziente Lösungen für Neubau &amp; Bestand.</p><span class="btn">Mehr Infos</span>
+            </div>
+          </a>
+          <a class="card" href="sanitaeranlagen.html">
+            <div class="fill"></div><img src="./assets/img/waterKran.jpg" alt="" class="imgph" />
+            <div class="card-inner">
+              <h3>Sanitäranlagen</h3>
+              <p>Badmodernisierung, barrierearme Konzepte.</p><span class="btn">Mehr Infos</span>
+            </div>
+          </a>
+          <a class="card" href="gewerbekunden.html">
+            <div class="fill"></div><img src="./assets/img/abitermCompressor.jpg" alt="" class="imgph" />
+            <div class="card-inner">
+              <h3>Gewerbekunden</h3>
+              <p>SHK-Lösungen für Betriebe.</p><span class="btn">Mehr Infos</span>
+            </div>
+          </a>
+          <a class="card" href="klima-lueftung.html">
+            <div class="fill"></div><img src="./assets/img/abitermBringer.jpg" alt="" class="imgph" />
+            <div class="card-inner">
+              <h3>Klima &amp; Lüftung</h3>
+              <p>Leise &amp; effiziente Systeme.</p><span class="btn">Mehr Infos</span>
+            </div>
+          </a>
+          <a class="card" href="referenzen.html">
+            <div class="fill"></div><img src="./assets/img/links.jpg" alt="" class="imgph" />
+            <div class="card-inner">
+              <h3>Referenzen</h3>
+              <p>Projekte mit Einblick.</p><span class="btn">Mehr Infos</span>
+            </div>
+          </a>
+          <a class="card" href="ueber-uns.html">
+            <div class="fill"></div><img src="./assets/img/abitermPeople.jpg" alt="" class="imgph" />
+            <div class="card-inner">
+              <h3>Über uns</h3>
+              <p>Meisterbetrieb &amp; Team.</p><span class="btn">Mehr Infos</span>
+            </div>
+          </a>
+          <!-- Карточка Kontakt удалена по ТЗ -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Блок 4: Ihre Vorteile -->
+    <section class="section vorteile reveal">
+      <div class="container">
+        <h2 style="text-align: center; margin-bottom: 16px">Ihre Vorteile</h2>
+        <div class="vorteile-grid">
+          <div>
+            <div class="feature"><span class="ico">✓</span>
+              <div>
+                <h3>Starke Partner</h3>
+                <p>Bewährte Komponenten namhafter Hersteller.</p>
+              </div>
+            </div>
+            <div class="feature"><span class="ico">✓</span>
+              <div>
+                <h3>Erfahrung</h3>
+                <p>Viele Jahre Praxis – zuverlässig & sauber.</p>
+              </div>
+            </div>
+            <div class="feature"><span class="ico">✓</span>
+              <div>
+                <h3>Zertifiziert</h3>
+                <p>Regelmäßige Schulungen halten uns up to date.</p>
+              </div>
+            </div>
+          </div>
+          <img src="./assets/img/yourPrioritets.JPG" alt="" class="center-ph" aria-label="Bildplatzhalter" />
+          <div>
+            <div class="feature"><span class="ico">✓</span>
+              <div>
+                <h3>Qualität</h3>
+                <p>Saubere Ausführung & klare Dokumentation.</p>
+              </div>
+            </div>
+            <div class="feature"><span class="ico">✓</span>
+              <div>
+                <h3>Faires Preis-Leistungs-Verhältnis</h3>
+                <p>Transparente, nachvollziehbare Angebote.</p>
+              </div>
+            </div>
+            <div class="feature"><span class="ico">✓</span>
+              <div>
+                <h3>Service</h3>
+                <p>Wartung & Kundendienst mit festen Intervallen.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Блок 5: Партнеры (автоскролл) -->
+    <section class="section partners reveal">
+      <div class="container">
+        <h2 style="text-align: center; margin-bottom: 12px">Unsere Partner</h2>
+        <div class="partner-track">
+          <div class="partner-list">
+
+            <!-- 30 плейсхолдеров для непрерывной ленты -->
+            <img src="./assets/img/bwt.png" alt="" class="partner" />
+            <img src="./assets/img/dimplex.svg" alt="" class="partner" />
+            <img src="./assets/img/duravit.png" alt="" class="partner" />
+            <img src="./assets/img/frankische.jpg" alt="" class="partner" />
+            <img src="./assets/img/froling.JPG" alt="" class="partner" />
+            <img src="./assets/img/Geberit-Logo.svg" alt="" class="partner" />
+            <img src="./assets/img/gessi.jpg" alt="" class="partner" />
+            <img src="./assets/img/frankische.jpg" alt="" class="partner" />
+            <img src="./assets/img/Grohe.svg.png" alt="" class="partner" />
+            <img src="./assets/img/toto.png" alt="" class="partner" />
+            <img src="./assets/img/grundfos.svg" alt="" class="partner" />
+            <img src="./assets/img/hansa.png" alt="" class="partner" />
+            <img src="./assets/img/hansgrohe.png" alt="" class="partner" />
+            <img src="./assets/img/helios.png" alt="" class="partner" />
+            <img src="./assets/img/idealStandard.svg" alt="" class="partner" />
+            <img src="./assets/img/Grohe.svg.png" alt="" class="partner" />
+            <img src="./assets/img/lunos-logo-oem.png" alt="" class="partner" />
+            <img src="./assets/img/vallox.png" alt="" class="partner" />
+            <img src="./assets/img/stiebelEltron.png" alt="" class="partner" />
+            <img src="./assets/img/panasonic.png" alt="" class="partner" />
+            <img src="./assets/img/hansa.png" alt="" class="partner" />
+            <img src="./assets/img/rehauLogo.png" alt="" class="partner" />
+            <img src="./assets/img/stiebelEltron.png" alt="" class="partner" />
+            <img src="./assets/img/systemair.png" alt="" class="partner" />
+            <img src="./assets/img/toto.png" alt="" class="partner" />
+            <img src="./assets/img/vallox.png" alt="" class="partner" />
+            <img src="./assets/img/varmeco.png" alt="" class="partner" />
+            <img src="./assets/img/Villeroy_&_Boch.png" alt="" class="partner" />
+            <img src="./assets/img/viessmann.png" alt="" class="partner" />
+            <img src="./assets/img/bwt.png" alt="" class="partner" />
+            <img src="./assets/img/varmeco.png" alt="" class="partner" />
+          </div>
+          
+          <div class="partner-list clone">
+
+            <!-- 30 плейсхолдеров для непрерывной ленты -->
+            <img src="./assets/img/bwt.png" alt="" class="partner" />
+            <img src="./assets/img/dimplex.svg" alt="" class="partner" />
+            <img src="./assets/img/duravit.png" alt="" class="partner" />
+            <img src="./assets/img/frankische.jpg" alt="" class="partner" />
+            <img src="./assets/img/froling.JPG" alt="" class="partner" />
+            <img src="./assets/img/Geberit-Logo.svg" alt="" class="partner" />
+            <img src="./assets/img/gessi.jpg" alt="" class="partner" />
+            <img src="./assets/img/frankische.jpg" alt="" class="partner" />
+            <img src="./assets/img/Grohe.svg.png" alt="" class="partner" />
+            <img src="./assets/img/toto.png" alt="" class="partner" />
+            <img src="./assets/img/grundfos.svg" alt="" class="partner" />
+            <img src="./assets/img/hansa.png" alt="" class="partner" />
+            <img src="./assets/img/hansgrohe.png" alt="" class="partner" />
+            <img src="./assets/img/helios.png" alt="" class="partner" />
+            <img src="./assets/img/idealStandard.svg" alt="" class="partner" />
+            <img src="./assets/img/Grohe.svg.png" alt="" class="partner" />
+            <img src="./assets/img/lunos-logo-oem.png" alt="" class="partner" />
+            <img src="./assets/img/vallox.png" alt="" class="partner" />
+            <img src="./assets/img/stiebelEltron.png" alt="" class="partner" />
+            <img src="./assets/img/panasonic.png" alt="" class="partner" />
+            <img src="./assets/img/hansa.png" alt="" class="partner" />
+            <img src="./assets/img/rehauLogo.png" alt="" class="partner" />
+            <img src="./assets/img/stiebelEltron.png" alt="" class="partner" />
+            <img src="./assets/img/systemair.png" alt="" class="partner" />
+            <img src="./assets/img/toto.png" alt="" class="partner" />
+            <img src="./assets/img/vallox.png" alt="" class="partner" />
+            <img src="./assets/img/varmeco.png" alt="" class="partner" />
+            <img src="./assets/img/Villeroy_&_Boch.png" alt="" class="partner" />
+            <img src="./assets/img/viessmann.png" alt="" class="partner" />
+            <img src="./assets/img/bwt.png" alt="" class="partner" />
+            <img src="./assets/img/varmeco.png" alt="" class="partner" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Блок 6: CTA -->
+    <section class="section cta reveal">
+      <div class="container">
+        <img src="./assets/img/abitermPeopleBig.jpg" alt="" class="cta-image"/>
+        <div class="cta-box">
+          <h2>Ihr Ansprechpartner für Heizung, Klima &amp; Sanitär</h2>
+          <p>Im Zollernalbkreis – z. B. Balingen, Rottweil &amp; Hechingen.
+            Sprechen Sie uns an – wir beraten gerne.</p>
+          <a class="btn btn-primary" href="kontakt.html">Zum Kontaktformular</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h4>ABITHERM GmbH</h4>
+        <p>Heizung · Klima · Sanitär</p>
+        <p>Rossbergstraße 40, 72336 Balingen</p>
+        <p><strong>Telefon:</strong> 0179 / 9140436<br /><strong>E-Mail:</strong>
+          info@abitherm.de</p>
+      </div>
+      <div>
+        <h4>Links</h4>
+        <ul class="linklist">
+          <li><a href="impressum.html">Impressum</a></li>
+          <li><a href="datenschutzerklaerung.html">Datenschutzerklärung</a></li>
+          <li><a href="cookie-richtlinie.html">Cookie-Richtlinie (EU)</a></li>
+        </ul>
+      </div>
+      <div class="map map-def">
+        <iframe title="Karte"
+          src="https://maps.google.com/maps?q=Rossbergstraße%2040%2C%2072336%20Balingen&t=&z=12&ie=UTF8&iwloc=&output=embed"
+          loading="lazy"></iframe>
+      </div>
+    </div>
+
+    <div class="map-adaptive-wrapper">
+      <div class="map map-adaptive">
+        <iframe title="Karte"
+          src="https://maps.google.com/maps?q=Rossbergstraße%2040%2C%2072336%20Balingen&t=&z=12&ie=UTF8&iwloc=&output=embed"
+          loading="lazy" height="200"></iframe>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <small>© <span id="year"></span> ABITHERM GmbH – Alle Rechte
+        vorbehalten.</small>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kontakt – ABITHERM GmbH</title>
+  <meta name="description" content="Kontakt – ABITHERM GmbH">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <!-- ваш общий стиль -->
+  <link rel="stylesheet" href="style.css">
+  <!-- дополнение стилей для контактного блока (если вы вставите патч внутрь style.css, можно удалить) -->
+  <!-- <link rel="stylesheet" href="contact-patch.css"> -->
+  <link rel="icon" type="image/png" href="assets/img/logo.png">
+</head>
+<body>
+
+<!-- ====== COMMON HEADER ====== -->
+<div class="topbar">
+  <div class="container">
+    <a href="https://maps.google.com/?q=Rossbergstraße%2040%2C%2072336%20Balingen" target="_blank" rel="noopener">
+      <!-- <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.14 2 5 5.14 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.86-3.14-7-7-7zm0 9.5A2.5 2.5 0 1 1 12 6a2.5 2.5 0 0 1 0 5.5z"/></svg> -->
+      Rossbergstraße 40 · 72336 Balingen
+    </a>
+    <span class="sp"></span>
+    <a href="mailto:info@abitherm.de">
+      <!-- <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4a2 2 0 0 0-2 2v1.2l10 5.8 10-5.8V6a2 2 0 0 0-2-2zm0 6.4-8 4.6-8-4.6V18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V10.4z"/></svg> -->
+      info@abitherm.de
+    </a>
+    <span> | </span>
+    <a href="tel:+497433123456">
+      <!-- <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.01-.24c1.12.37 2.33.57 3.58.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1C10.4 21 3 13.6 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.46.57 3.58a1 1 0 0 1-.25 1.01l-2.2 2.2z"/></svg> -->
+      07433 / 123456
+    </a>
+  </div>
+</div>
+
+<header>
+  <div class="container header-inner">
+    <a class="brand" href="index.html"><img src="assets/img/logo.png" alt="ABITHERM GmbH"></a>
+
+    <nav class="nav" aria-label="Hauptnavigation">
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Menü">&#9776;</button>
+      <ul id="nav-menu" class="nav-list">
+        <li class="has-sub">
+          <a href="heizungsbau.html">Heizungsbau</a>
+          <ul class="sub">
+            <li><a href="heizungsbau.html#wm">Wärmepumpe</a></li>
+            <li><a href="heizungsbau.html#hybrid">Hybridheizung</a></li>
+            <li><a href="heizungsbau.html#gas">Gasheizung</a></li>
+            <li><a href="heizungsbau.html#pellet">Pelletheizung</a></li>
+            <li><a href="heizungsbau.html#floor">Fußbodenheizung</a></li>
+            <li><a href="heizungsbau.html#service">Heizungswartung &amp; Kundendienst</a></li>
+          </ul>
+        </li>
+
+        <li class="has-sub">
+          <a href="sanitaeranlagen.html" aria-haspopup="true" aria-expanded="false">Sanitäranlagen</a>
+          <ul class="sub">
+            <li><a href="sanitaeranlagen.html#wasseraufbereitung">Wasseraufbereitung</a></li>
+            <li><a href="sanitaeranlagen.html#sanita-gewerbe">Gewerbe &amp; Großkunden</a></li>
+            <li><a href="sanitaeranlagen.html#sanita-wohnungen">Wohnungen &amp; Häuser</a></li>
+            <li><a href="sanitaeranlagen.html#verlegung-rohrleitungen">Verlegung von Rohrleitungen</a></li>
+            <li><a href="sanitaeranlagen.html#sanierung-rohrleitungen">Sanierung von Rohrleitungen</a></li>
+          </ul>
+        </li>
+
+        <li><a href="gewerbekunden.html">Gewerbekunden</a></li>
+        <li><a href="klima-lueftung.html">Klima &amp; Lüftung</a></li>
+        <li><a href="referenzen.html">Referenzen</a></li>
+        <li><a href="ueber-uns.html">Über uns</a></li>
+        <li><a href="kontakt.html" class="active">Kontakt</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<!-- ===== Main ===== -->
+<main>
+  <section class="hero hero-cover hero-red hero-page" data-bg="assets/img/hero-placeholder.jpg" aria-labelledby="page-title">
+    <div class="hero-bg ph-img" role="img" aria-hidden="true"><img src="./assets/img/blueBg.avif" alt=""></div>
+
+    <div class="container hero-inner">
+      <div class="hero-content">
+        <h1 id="page-title" class="hero-title"><center>KONTAKT</center></h1>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Contact block (one big block split into two halves) ===== -->
+  <section class="section" style="padding:40px 0;">
+    <div class="container">
+      <div class="contact-block">
+
+        <!-- LEFT (red) column -->
+        <aside class="contact-left">
+          <h3 class="contact-left-title">So erreichen Sie uns</h3>
+          <div class="contact-divider"></div>
+
+          <h4 class="company-name">ABITHERM GmbH</h4>
+
+          <ul class="contact-list">
+            <li><strong>Adresse</strong><br>Rossbergstraße 40<br>72336 Balingen</li>
+            <li><strong>Telefon</strong><br><a href="tel:+497433123456">07433 / 123456</a></li>
+            <li><strong>E-Mail</strong><br><a href="mailto:info@abitherm.de">info@abitherm.de</a></li>
+          </ul>
+
+          <h4 class="office-title">Bürozeiten</h4>
+          <div class="contact-divider"></div>
+          <p class="office-times">Mo–Fr:<br>07:00 – 12:00 Uhr<br>14:00 – 17:00 Uhr<br><br>Sa–So: nicht besetzt</p>
+
+          <div class="map-wrap">
+            <!-- вставьте вашу карту (iframe) -->
+            <iframe loading="lazy" src="https://maps.google.com/maps?q=Rossbergstraße%2040%2C%2072336%20Balingen&output=embed" aria-hidden="false" title="ABITHERM - Karte"></iframe>
+          </div>
+        </aside>
+
+        <!-- RIGHT (form) column -->
+        <div class="contact-right">
+          <h3 class="contact-right-title">Schreiben Sie uns</h3>
+          <div class="contact-divider"></div>
+
+          <!-- success message area -->
+          <div id="contact-result" class="contact-result" style="display:none;"></div>
+
+          <form id="contactForm" class="contact-form" enctype="multipart/form-data" novalidate>
+            <!-- honeypot (hidden) -->
+            <input type="text" name="company" id="company_honey" style="display:none" autocomplete="off">
+
+            <fieldset class="form-row">
+              <legend>Anrede</legend>
+              <label class="radio"><input type="radio" name="title" value="Herr" checked> Herr</label>
+              <label class="radio"><input type="radio" name="title" value="Frau"> Frau</label>
+            </fieldset>
+
+            <div class="form-grid two-cols">
+              <div class="form-field">
+                <label for="firstname">Vorname *</label>
+                <input id="firstname" name="firstname" required>
+              </div>
+              <div class="form-field">
+                <label for="lastname">Nachname *</label>
+                <input id="lastname" name="lastname" required>
+              </div>
+            </div>
+
+            <div class="form-field">
+              <label for="street">Straße und Hausnummer *</label>
+              <input id="street" name="street" required>
+            </div>
+
+            <div class="form-grid two-cols">
+              <div class="form-field">
+                <label for="zip">Postleitzahl *</label>
+                <input id="zip" name="zip" required>
+              </div>
+              <div class="form-field">
+                <label for="city">Ort *</label>
+                <input id="city" name="city" required>
+              </div>
+            </div>
+
+            <div class="form-field">
+              <label for="email">E-Mail *</label>
+              <input id="email" name="email" type="email" required>
+            </div>
+
+            <div class="form-field">
+              <label for="phone">Telefonnummer *</label>
+              <input id="phone" name="phone" required>
+            </div>
+
+            <div class="form-field">
+              <label for="mobile">Handynummer</label>
+              <input id="mobile" name="mobile">
+            </div>
+
+            <h4 class="section-subtitle">Wann sind Sie am besten telefonisch erreichbar?</h4>
+
+            <div class="form-grid two-cols">
+              <div class="form-field">
+                <label for="date">Datum</label>
+                <input id="date" name="date" type="date">
+              </div>
+              <div class="form-field">
+                <label for="time">Uhrzeit</label>
+                <input id="time" name="time" type="time" value="12:00">
+              </div>
+            </div>
+
+            <div class="form-field">
+              <label>Ihr Anliegen *</label>
+              <div class="radios">
+                <label><input type="radio" name="topic" value="Heizung" checked> Heizung</label>
+                <label><input type="radio" name="topic" value="Wohnraumsanierung"> Wohnraumsanierung</label>
+                <label><input type="radio" name="topic" value="Gewerbekunden"> Gewerbekunden</label>
+                <label><input type="radio" name="topic" value="Klima & Lüftung"> Klima &amp; Lüftung</label>
+                <label><input type="radio" name="topic" value="Wartung"> Wartung</label>
+                <label><input type="radio" name="topic" value="Bewerbung"> Bewerbung</label>
+              </div>
+            </div>
+
+            <div class="form-field">
+              <label>Datei hinzufügen</label>
+              <div id="dropZone" class="file-drop">
+                <div class="file-drop-text">Bitte klicken Sie hier oder ziehen Sie eine Datei auf dieses Feld (max 5 MB).</div>
+                <input type="file" id="fileInput" name="attachment" accept=".jpg,.jpeg,.png,.pdf,.doc,.docx,.xls,.xlsx,.gif" />
+                <div id="selectedFile" class="selected-file" style="display:none"></div>
+              </div>
+            </div>
+
+            <div class="form-field">
+              <label for="details">Weitere Details (z.B. Seriennummer/ Typenschild/ Hersteller)</label>
+              <textarea id="details" name="details" rows="4"></textarea>
+            </div>
+
+            <div class="form-row">
+              <button type="submit" class="btn btn-primary">Absenden</button>
+            </div>
+
+            <div class="form-field">
+              <label class="checkbox-inline">
+                <input type="checkbox" id="gdpr" name="gdpr" required> Ich stimme den <a href="datenschutzerklaerung.html" target="_blank">Datenschutzbestimmungen</a> zu
+              </label>
+            </div>
+
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+</main>
+
+
+<footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <h4>ABITHERM GmbH</h4>
+          <p>Heizung · Klima · Sanitär</p>
+          <p>Rossbergstraße 40, 72336 Balingen</p>
+          <p
+            ><strong>Telefon:</strong> 0179 / 9140436<br /><strong
+              >E-Mail:</strong
+            >
+            info@abitherm.de</p
+          >
+        </div>
+        <div>
+          <h4>Links</h4>
+          <ul class="linklist">
+            <li><a href="impressum.html">Impressum</a></li>
+            <li
+              ><a href="datenschutzerklaerung.html">Datenschutzerklärung</a></li
+            >
+            <li><a href="cookie-richtlinie.html">Cookie-Richtlinie (EU)</a></li>
+          </ul>
+        </div>
+        <div class="map map-def">
+          <iframe
+            title="Karte"
+            src="https://maps.google.com/maps?q=Rossbergstraße%2040%2C%2072336%20Balingen&t=&z=12&ie=UTF8&iwloc=&output=embed"
+            loading="lazy"
+          ></iframe>
+        </div>
+      </div>
+
+      <div class="map-adaptive-wrapper">
+        <div class="map map-adaptive">
+          <iframe
+            title="Karte"
+            src="https://maps.google.com/maps?q=Rossbergstraße%2040%2C%2072336%20Balingen&t=&z=12&ie=UTF8&iwloc=&output=embed"
+            loading="lazy"
+            height="200"
+          ></iframe>
+        </div>
+      </div>
+
+      <div class="container footer-bottom">
+        <small
+          >© <span id="year"></span> ABITHERM GmbH – Alle Rechte
+          vorbehalten.</small
+        >
+      </div>
+    </footer>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+
+<script src="script.js"></script>
+</body>
+</html>
