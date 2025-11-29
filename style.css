@@ -261,7 +261,7 @@ p {
     width: 100%;
   }
 
-  .company-build{
+  .company-build {
     max-height: 400px;
   }
 }
@@ -919,6 +919,20 @@ p {
   }
 }
 
+@media (max-width: 600px) {
+  .hero {
+    height: 250px;
+
+    hero-bg {
+      height: 250px;
+
+      img {
+        height: 250px;
+      }
+    }
+  }
+}
+
 /* Красное мягкое затемнение над фоном, но под текстом */
 .hero.hero-red::after {
   content: "";
@@ -1226,6 +1240,12 @@ html {
   align-items: center;
   padding: 0; /* inner padding управляется .hero-inner */
   border-bottom: 1px solid var(--border);
+}
+
+@media (max-width: 600px) {
+  .hero.hero-cover {
+    min-height: clamp(100px, 48vh, 620px);
+  }
 }
 
 /* фон (заменяется через data-bg или inline style) */
