@@ -345,6 +345,7 @@ p {
 .slide {
   position: absolute;
   inset: 0;
+  object-fit: contain;
   opacity: 0;
   transition: opacity 0.8s ease;
   display: flex;
@@ -354,6 +355,10 @@ p {
 }
 
 @media (max-width: 850px) {
+
+  .slider {
+      min-height: 320px;
+  }
   .slide {
     img {
       height: 100%;
@@ -398,6 +403,7 @@ p {
   gap: 18px;
 }
 .card {
+  object-fit: contain;
   border: 2px solid var(--primary);
   border-radius: 16px;
   overflow: hidden;
@@ -412,7 +418,7 @@ p {
   box-shadow: 0 14px 30px rgba(229, 57, 53, 0.12);
 }
 .card .imgph {
-  height: 200px;
+  max-height: 300px;
   width: 100%;
   background: repeating-linear-gradient(45deg, #fafafa, #fafafa 20px, #f0f0f0 20px, #f0f0f0 40px);
 }
@@ -425,33 +431,8 @@ p {
   }
 
   .card {
-    height: 550px;
-    width: calc(80% - 20px);
-
-    .imgph {
-      height: 380px;
-    }
-  }
-}
-
-@media (max-width: 500px) {
-  .card {
-    height: 450px;
+    height: fit-content;
     width: calc(100% - 20px);
-
-    .imgph {
-      height: 250px;
-    }
-  }
-}
-
-@media (max-width: 400px) {
-  .card {
-    height: 350px;
-
-    .imgph {
-      height: 170px;
-    }
   }
 }
 
@@ -474,9 +455,10 @@ p {
 
 /* Vorteile */
 .vorteile .center-ph {
-  width: 420px;
+  object-fit: contain;
   max-width: 100%;
-  height: 360px;
+  max-height: 500px;
+  height: 100%;
   margin: 0 auto;
   border: 2px dashed var(--border);
   border-radius: 16px;
@@ -919,17 +901,6 @@ p {
   }
 }
 
-@media (max-width: 600px) {
-  .hero {
-    height: 250px;
-
-    hero-bg {
-      height: 250px;
-
-    }
-  }
-}
-
 /* Красное мягкое затемнение над фоном, но под текстом */
 .hero.hero-red::after {
   content: "";
@@ -1156,7 +1127,7 @@ p {
     top: 50%;
     left: 50%;
     width: calc(100% - 20px);
-    transform: translate(-50%, -35%);
+    transform: translate(-50%, -50%);
     height: fit-content;
   }
 }
@@ -1232,7 +1203,7 @@ html {
 .hero.hero-cover {
   position: relative;
   overflow: hidden;
-  min-height: clamp(380px, 48vh, 620px);
+  min-height: clamp(500px, 48vh, 620px);
   display: flex;
   align-items: center;
   padding: 0; /* inner padding управляется .hero-inner */
